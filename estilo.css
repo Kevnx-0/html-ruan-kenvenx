@@ -11,8 +11,9 @@
    
   .app{
       background: #c0c0c0; ;
-      width: 90%;
-      max-width: 600px;
+      width: 600px;
+      height: 500px;
+      max-width: auto%;
       border-radius: 2.5%;
       margin:100px auto 0 ;
       padding: 30px;
@@ -54,6 +55,7 @@
     .btn:hover:not([disabled]){
         background: #222;
         color: #fff;
+        transform: scale(1.05);
     }
 
     .btn:disabled{
@@ -61,7 +63,7 @@
     }
 
     #next-btn {
-        background: darkslategray;
+        background: rgb(63, 108, 255);
         color: #fff;
         font-weight: 500;
         width: 150px;
@@ -70,7 +72,7 @@
         margin: 20px auto 0;
         border-radius: 4px;
         cursor: pointer;
-        transition: transform 1.5s;
+        transition: transform 0.25s;
         //*display: none;*/
     }
     #next-btn:hover {
