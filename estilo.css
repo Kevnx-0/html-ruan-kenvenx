@@ -1,18 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: Garamond, serif ;
     box-sizing: border-box;
   }
   
   body {
-      background: #fff5e5;
+      background: #696969;
     }
    
   .app{
-      background: #ffefd5;
+      background: #c0c0c0; ;
       width: 90%;
       max-width: 600px;
+      border-radius: 2.5%;
       margin:100px auto 0 ;
       padding: 30px;
     }
@@ -21,7 +22,7 @@
       font-weight: 25%;
       color: black;
       font-weight: 600;
-      border-bottom: 1px silver;
+      border-bottom: 1px rgb(0, 0, 0);
       padding-bottom: 30px;
     }
   
@@ -60,7 +61,7 @@
     }
 
     #next-btn {
-        background: darkblue;
+        background: darkslategray;
         color: #fff;
         font-weight: 500;
         width: 150px;
@@ -69,7 +70,11 @@
         margin: 20px auto 0;
         border-radius: 4px;
         cursor: pointer;
-        display: none;
+        transition: transform 1.5s;
+        //*display: none;*/
+    }
+    #next-btn:hover {
+        transform: scale(1.1);
     }
 
     .correct {
