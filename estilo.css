@@ -1,26 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Garamond, serif ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, fantasy;
     box-sizing: border-box;
   }
   
   body {
-      background: #696969;
+      background-image: linear-gradient(
+        45deg,white,#4682B4);
+         height: 100%;
     }
+
    
   .app{
-      background: #c0c0c0; ;
-      width: 600px;
-      height: 500px;
-      max-width: auto%;
+      background: none;
+      box-shadow:4px 4px 15px 1px
+      rgba(0,0,0,0.6);
+      width: 800px;
+      height: 600px;
+      max-width: auto;
       border-radius: 2.5%;
       margin:100px auto 0 ;
       padding: 30px;
     }
   
   .app h1{
-      font-weight: 25%;
+      font-weight: 50%;
       color: black;
       font-weight: 600;
       border-bottom: 1px rgb(0, 0, 0);
@@ -33,21 +38,23 @@
   
   .quiz h2{
       font-size: 18px;
-      color:darkcyan;
+      color:rgba(36, 21, 17, 0);
       font-weight: 500;
     }
 
   .btn {
-        background: white;
+        background-color:none;
         color:black;
-        font-weight: 500;
-        width: 100%;
+        font-weight: 600px;
+        font-size: 20px;
+        width: 740px;
         border: 1px solid #222;
-        padding: 10px;
-        margin: 10px 0;
-        text-align: left;
-        border-radius: 4px;
+        padding: 15px;
+        margin: 15px 0;
+        text-align: center;
+        border-radius: 15px;
         cursor: pointer;
+        box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.46);
         transition: all 0.3s;
     }
 
@@ -63,17 +70,19 @@
     }
 
     #next-btn {
-        background: rgb(63, 108, 255);
+        background: #2c5577;
         color: #fff;
-        font-weight: 500;
-        width: 150px;
-        border: 0;
-        padding: 10px;
-        margin: 20px auto 0;
-        border-radius: 4px;
+        font-weight: 40px;
+        font-size: 20px;
+        width: 160px;
+        border: none;
+        padding: 12px 20px;
+        margin: 24px auto 0;
+        border-radius: 200px;
         cursor: pointer;
-        transition: transform 0.25s;
-        //*display: none;*/
+        transition: all 0.3s ease;
+        display: none;
+        box-shadow: 2px 5px 2px 2px rgba(0, 0, 0, 0.2);
     }
     #next-btn:hover {
         transform: scale(1.1);
